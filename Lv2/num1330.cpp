@@ -1,3 +1,6 @@
+/*
+    비교 연산자를 사용할줄 아는가
+*/
 #include <iostream>
 using namespace std;
 
