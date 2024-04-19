@@ -1,3 +1,6 @@
+/*
+    곱셈 나눗셈을 할줄 아는가
+*/
 #include <iostream>
 using namespace std;
 

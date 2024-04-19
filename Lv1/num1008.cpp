@@ -1,3 +1,6 @@
+/*
+    소숫점 출력갯수를 제어할줄 아는가
+*/
 #include <iostream>
 
 //fixed와 setprecision을 이용하기위한 라이브러리
