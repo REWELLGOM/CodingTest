@@ -1,3 +1,6 @@
+/*
+    max함수와 if문 분기를 잘 써야하는 문제다
+*/
 #include <iostream>
 using namespace std;
 
