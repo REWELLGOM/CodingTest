@@ -1,3 +1,6 @@
+/*
+    for문을 사용할줄 아는지를 물어보는 간단한 문제이다
+*/
 #include <iostream>
 using namespace std;
 
