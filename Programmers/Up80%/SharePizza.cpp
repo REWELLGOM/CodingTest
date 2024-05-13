@@ -9,7 +9,7 @@ using namespace std;
 int solution(int n) {
     int answer = 0;
     int count = 1;
-    while(n >= count*7)
+    while(n > count*7)
     {
         count++;
     }
