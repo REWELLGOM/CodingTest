@@ -13,9 +13,12 @@ int solution(int price) {
     {
         price = price * 0.9;
     }
+    else if(price >= 100000)
+    {
+        price = int(price * 0.95);
+    }
     else
     {
-        price = price * 0,95;
     }
     answer = price;
     return answer;
