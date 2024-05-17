@@ -20,5 +20,22 @@ int solution(std::string s) {
     return sign * result;
 }
 
+/*
+    stoi library
+*/
+
+#include <iostream>
+#include <string>
+
+int solution(std::string s) {
+    return std::stoi(s);
+}
+
+int main() {
+    std::cout << solution("1234") << std::endl;  // 출력: 1234
+    std::cout << solution("-1234") << std::endl; // 출력: -1234
+    return 0;
+}
+
 
 
