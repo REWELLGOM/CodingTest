@@ -4,5 +4,9 @@ while(!(cin >> a >> b).eof())
 이때 파일의 끝에 도달한 뒤 읽고자 할 경우 true를 반환한다.
 
 Stoi()
-string헤더파일에 들어있는 함수
+string헤더 파일에 들어있는 함수
 문자열을 받아 해당하는 정수로 변환하여 반환
+
+pow(num, num1)
+cmath헤더 파일에 들어있는 함수
+num에 num1을 제곱하는 모양이다 num^num1
