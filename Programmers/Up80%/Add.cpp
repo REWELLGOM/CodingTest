@@ -27,6 +27,7 @@ int solution(int left, int right) {
         {
             answer -= i;
         }
+        count = 0;
     }
     
     return answer;
