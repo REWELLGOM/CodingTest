@@ -5,6 +5,11 @@ while(!(cin >> a >> b).eof())
 
 
 
+condition ? expression1 : expression2;
+삼항 조건 연산자임
+condition의 조건이 참일때 expression1을 반환 거짓일때 expression2를 반환하는 방식
+
+
 ------------------------------------------
 string헤더파일
 
