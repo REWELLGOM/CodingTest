@@ -22,3 +22,19 @@ string solution(int n) {
     }
     return answer;
 }
+
+//다른 풀이 비트연산자를 이용한
+
+#include <string>
+#include <vector>
+
+using namespace std;
+
+string solution(int n) {
+    string answer = "";
+
+    for(int i = 0; i < n; i++)
+        i & 1 ? answer += "박" : answer += "수";
+
+    return answer;
+}
