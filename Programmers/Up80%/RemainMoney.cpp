@@ -19,3 +19,14 @@ long long solution(int price, int money, int count)
     
     return answer > 0 ? answer : 0;
 }
+
+
+//다른 풀이 가우스 공식을 이용함
+using namespace std;
+typedef long long ll;
+
+long long solution(int price, int money, int count)
+{
+    ll answer = (ll)(count * (count+1) / 2) * price; 
+    return answer > money ? answer - money : 0;
+}
