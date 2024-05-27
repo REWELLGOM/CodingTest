@@ -27,6 +27,6 @@ typedef long long ll;
 
 long long solution(int price, int money, int count)
 {
-    ll answer = (ll)(count * (count+1) / 2) * price; 
+    ll answer = (ll)(count * (count+1) / 2) * price; //{(첫 항 + 마지막 항) * (항의 개수)} / 2
     return answer > money ? answer - money : 0;
 }
