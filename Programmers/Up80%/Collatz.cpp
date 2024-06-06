@@ -1,5 +1,9 @@
 /*
     https://school.programmers.co.kr/learn/courses/30/lessons/12943
+
+    이 문제의 함정은 홀수형을 처리할때 int형을 넘어간다는 것이다.
+    double float을 해결하기위해서 cmath의 fmod를 사용했다
+    %는 int만 가능함
 */
 #include <string>
 #include <vector>
