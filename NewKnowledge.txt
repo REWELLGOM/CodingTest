@@ -39,6 +39,12 @@ cmath헤더파일
 pow(num, num1)
 num에 num1을 제곱하는 모양이다 num^num1
 
+
+fmod(a,b)
+float double형들의 나머지를 구하는 함수 
+a % b
+
+
 ----------------------------------------
 vector헤더파일
 
