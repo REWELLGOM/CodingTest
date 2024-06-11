@@ -9,23 +9,17 @@
 using namespace std;
 
 int solution(int n) {
+    vector<int> ternaryDigits;
+    
+    while (n > 0) {
+        ternaryDigits.push_back(n % 3);
+        n /= 3;
+    }
     int answer = 0;
-    vector<int> vec;
-    int count = 0;
-    
-    while(n == 1)
-    {
-        vec[count] = n % 3;
-        n = n /3;
-        count++;
+    int size = ternaryDigits.size();
+    for (int i = 0; i < size; ++i) {
+        answer += ternaryDigits[i] * pow(3, size - 1 - i);
     }
-    count = 0;
-    reverse(vec.begin(), vec.end());
     
-    for(int j = vec.size(); j < 0; j--)
-    {
-        answer +=  count* pow(3, vec[j]);    
-        count++;
-    }
     return answer;
 }
