@@ -4,13 +4,18 @@ while(!(cin >> a >> b).eof())
 이때 파일의 끝에 도달한 뒤 읽고자 할 경우 true를 반환한다.
 
 
+vec.push_back(n % 3);
+벡터의 끝에 요소를 추가하는 역할
+벡터의 크기를 동적으로 증가시킬수 있음
 
 condition ? expression1 : expression2;
 삼항 조건 연산자임
 condition의 조건이 참일때 expression1을 반환 거짓일때 expression2를 반환하는 방식
 
+
 이차배열 초기화
 vector<vector<int>> answer(rows, vector<int>(cols, 0));
+
 
 for(char a : b)
 벡터, 리스트, 배열에 사용함
