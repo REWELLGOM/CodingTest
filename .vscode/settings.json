@@ -52,6 +52,7 @@
         "vector": "cpp",
         "string": "cpp",
         "algorithm": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "numeric": "cpp"
     }
 }
